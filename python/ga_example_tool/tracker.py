@@ -2,9 +2,8 @@
 from UniversalAnalytics import Tracker
 import functools
 
-CUSTOMER_UNIQUE_ID = "tm8r_test"
-TRACKING_CODE = "UA-XXXXXXXX-X"
-tracker = Tracker.create(TRACKING_CODE, client_id=CUSTOMER_UNIQUE_ID)
+TRACKING_CODE = "UA-XXXXXXXX-Y"
+tracker = Tracker.create(TRACKING_CODE)
 EXD_FORMART = "{0} on {1}"
 
 
